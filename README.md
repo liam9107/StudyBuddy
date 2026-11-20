@@ -20,7 +20,7 @@ Finding people to study with usually means posting in a group chat and hoping so
 ![Java](https://img.shields.io/badge/Java-11-007396?logo=openjdk&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-API%2024%2B-3DDC84?logo=android&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore-FFCA28?logo=firebase&logoColor=black)
-![Gradle](https://img.shields.io/badge/Gradle-Kotlin%20DSL-02303A?logo=gradle&logoColor=white)
+
 
 - Java 11, Android SDK 35 (min SDK 24)
 - AndroidX AppCompat, Material Components, ConstraintLayout, RecyclerView, SwipeRefreshLayout
