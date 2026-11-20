@@ -71,9 +71,9 @@ From Android Studio, right-click `app/src/test` and choose **Run Tests**, or run
 
 | Welcome | Feed | Post detail | Create post |
 |---|---|---|---|
-| _screenshot_ | _screenshot_ | _screenshot_ | _screenshot_ |
+| <img src="docs/screenshots/welcome.png" alt="Welcome screen" width="200"> | <img src="docs/screenshots/feed.png" alt="Home feed" width="200"> | <img src="docs/screenshots/post-detail.png" alt="Study session detail" width="200"> | <img src="docs/screenshots/create-post.png" alt="New study session form" width="200"> |
 
-<!-- Add images to docs/screenshots/ and replace the placeholders, e.g. ![Feed](docs/screenshots/feed.png) -->
+Contact details in the post detail screenshot are hidden for privacy.
 
 ## Roadmap
 
