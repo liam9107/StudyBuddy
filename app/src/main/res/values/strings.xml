@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyBuddy</string>
+    <string name="app_tagline">Find your study group</string>
+
+    <!-- Buttons shared across screens -->
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_log_in">Log In</string>
+
+    <!-- Sign up screen -->
+    <string name="title_create_account">Create Account</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_email_address">Email address</string>
+    <string name="hint_password">Password</string>
+
+    <!-- Log in screen -->
+    <string name="title_log_in">Log In</string>
+    <string name="text_forgot_password">Forgot password?</string>
+
+    <!-- Profile setup screen -->
+    <string name="title_profile_setup">Set Up Your Profile</string>
+    <string name="subtitle_profile_setup">Add your contact info so other students can reach you.</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone Number (optional)</string>
+    <string name="hint_discord">Discord Username (optional)</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="button_save_profile">Save Profile</string>
+    <string name="button_saving">Saving…</string>
+    <string name="button_logging_in">Logging in…</string>
+    <string name="button_signing_up">Creating account…</string>
+
+    <!-- Create post screen -->
+    <string name="title_create_post">New Study Session</string>
+    <string name="hint_topic">Topic or class (e.g. CS 124 MP)</string>
+    <string name="hint_partner_count">Number of partners wanted</string>
+    <string name="hint_notes">Notes (optional)</string>
+    <string name="button_post">Post</string>
+    <string name="button_posting">Posting…</string>
+
+    <!-- Topic filter -->
+    <string name="filter_all_topics">All Topics</string>
+    <string name="action_search">Search</string>
+    <string name="filter_banner_topic">Filtered by topic — tap to clear</string>
+    <string name="filter_banner_search">Search active — tap to clear</string>
+    <string name="filter_banner_both">Topic + search active — tap to clear</string>
+    <string name="search_hint">Search by topic or notes</string>
+
+    <!-- Home screen -->
+    <string name="empty_posts_title">No study sessions yet</string>
+    <string name="empty_posts_subtitle">Tap + to post one!</string>
+    <string name="empty_posts_filtered_title">No sessions for this topic</string>
+    <string name="empty_posts_filtered_subtitle">Try a different topic or clear the filter.</string>
+    <string name="empty_posts_search_title">No results found</string>
+    <string name="empty_posts_search_subtitle">Try different keywords or clear the search.</string>
+    <string name="fab_create_post">Create post</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_my_posts">My Posts</string>
+    <string name="action_sign_out">Sign Out</string>
+
+    <!-- My Posts screen -->
+    <string name="title_my_posts">My Posts</string>
+    <string name="empty_my_posts_title">You haven\'t posted anything yet</string>
+    <string name="empty_my_posts_subtitle">Go back and tap + to create a study session!</string>
+
+    <!-- Post detail screen -->
+    <string name="title_post_detail">Study Session</string>
+    <string name="contact_info_title">Contact Info</string>
+    <string name="no_contact_info">This user hasn\'t added contact info yet.</string>
+    <string name="email_format">Email: %s</string>
+    <string name="phone_format">Phone: %s</string>
+    <string name="discord_format">Discord: %s</string>
+
+    <!-- Validation errors -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_topic_required">Topic is required</string>
+    <string name="error_partner_count_min">Must be at least 1</string>
+    <string name="error_partner_count_invalid">Enter a number</string>
+    <string name="error_email_for_reset">Enter your email address first</string>
+
+    <!-- Firebase error messages -->
+    <string name="error_login_failed">Incorrect email or password</string>
+    <string name="error_create_account_failed">Could not create account. Please try again.</string>
+    <string name="error_not_signed_in">Not signed in. Please try again.</string>
+    <string name="error_load_profile_failed">Failed to load profile. Please try again.</string>
+    <string name="error_save_profile_failed">Failed to save profile. Please try again.</string>
+    <string name="error_post_failed">Failed to post. Please try again.</string>
+    <string name="error_delete_failed">Failed to delete post. Please try again.</string>
+    <string name="error_load_posts_failed">Failed to load posts. Please try again.</string>
+    <string name="error_load_contact_failed">Failed to load contact info. Please try again.</string>
+    <string name="error_password_reset_failed">Could not send reset email. Please try again.</string>
+
+    <!-- Success messages -->
+    <string name="message_reset_email_sent">Reset email sent</string>
+
+    <string name="delete_post">Delete post</string>
+    <string name="delete_post_confirm_title">Delete post?</string>
+    <string name="delete_post_confirm_message">This can\'t be undone.</string>
+
+    <!-- Post list item -->
+    <!-- %s is the poster's name, e.g. "Posted by Alex" -->
+    <string name="posted_by_format">Posted by %s</string>
+</resources>
